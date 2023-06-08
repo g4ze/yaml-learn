@@ -1,0 +1,15 @@
+{
+    "School":[
+        {
+            "name" : "Jaipuria",
+            "princi": "Someone",
+            "Students": [
+                {
+                    "name":"nilay",
+                    "rollno": 12,
+                    "marks": 100
+                }
+            ]
+        }
+    ]
+}
