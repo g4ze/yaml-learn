@@ -1,0 +1,18 @@
+#collection of zero or more documents sep by "---"
+"apple" : "I am a red fruit"
+1: "My role number"
+---
+#lists
+- apple
+- mango
+- banana
+---
+cities:
+  - new delhi
+  - mumbai
+  - lucknow
+---
+cities: [newdelhi, mumbai]
+---
+{mango: "yellow", age:56}
+...

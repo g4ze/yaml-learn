@@ -1,0 +1,35 @@
+name : !!str  nilay guta #string datatype
+fruit: "apple"
+job: 'swe'
+bio: |
+hewlo my name is nilay gupta
+i write code
+#write single line in multiple lines
+message: >
+this all 
+wil be 
+in one 
+line
+#same as: message: this all....line
+
+
+number: 1244 #int
+marks: 98.99 #float
+booleanValue: No #boolean m, N, Flase, false same for true y...
+
+
+#specify the type
+zero: !!int 0
+positivenumber: !!int 0
+binaryNum: !!int 0b1101
+hexa: !!int 0x123
+commavalues: !!int +54_000 #stores 540, 000
+
+#floating point numbers
+marks: !!float 56.99
+infinite: !!float .inf
+nit a num: !!float .nan
+#nul
+surname: !!null Null #or null ~
+#date
+date: !!timestamp 1002:04:01

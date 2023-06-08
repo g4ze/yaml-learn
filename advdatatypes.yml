@@ -1,0 +1,55 @@
+student: !!seq
+- makrs
+- name
+- rollNo
+
+cities: [lko, new delhi]
+
+sparse ser:
+- hey
+- how
+-
+- are
+-
+- you
+
+#nested items
+-
+ - mang0
+ - apple
+ - banana
+-
+ - marks
+ - rollno
+ - date
+
+#key value pairs are called maps
+!!map
+
+#nested mappings
+name: Kunal Kushwaha
+role:
+ age: 78
+ job: student
+#same as role: {age: 78, job: studet}
+
+#pairs: keys may have duplicate vals
+
+pair example: !!pairs
+ - job: student
+ - job: teacher
+# array of hash tables
+# !!set
+# dictionary !!omap
+
+#reusing properties using anchor
+likings: &likes 
+  fav fruit: mango
+  dislikes: grapes
+person1:
+  name: nilay
+  <<: *likes
+person2:
+  name: nilay
+  <<: *likes
+  dislikes: apple #will overwrite
